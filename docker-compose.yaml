@@ -7,7 +7,7 @@ services:
       - PUID=1000
       - PGID=1000
       - MEM_LIMIT=512 #optional
-      - MEM_STARTUP=256 #optional
+      - MEM_STARTUP=512 #optional
     volumes:
       - /home/unifi/unifi_data/config:/config
     ports:
