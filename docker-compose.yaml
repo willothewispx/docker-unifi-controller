@@ -9,7 +9,7 @@ services:
       - MEM_LIMIT=512 #optional
       - MEM_STARTUP=256 #optional
     volumes:
-      - /unifi_data/config:/config
+      - /home/unifi/unifi_data/config:/config
     ports:
       - 8443:8443
       - 3478:3478/udp
