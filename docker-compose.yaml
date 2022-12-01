@@ -5,7 +5,7 @@ services:
     container_name: unifi-controller
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=1003
       - MEM_LIMIT=512 #optional
       - MEM_STARTUP=512 #optional
     volumes:
